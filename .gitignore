@@ -1,0 +1,12 @@
+# Directories
+.import/
+.mono/
+build/
+raw_assets/
+
+# Extensions
+
+# Files
+debug.log
+export.cfg
+export_presets.cfg

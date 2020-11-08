@@ -1,0 +1,19 @@
+* text=auto
+
+*.ase binary
+*.cfg text eol=lf
+*.cpp text eol=lf
+*.cs text eol=lf
+*.gd text eol=lf
+*.godot text eol=lf
+*.import text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.ogg binary
+*.png binary
+*.tmx text eol=lf
+*.tres text eol=lf
+*.tscn text eol=lf
+*.ttf binary
+*.wav binary
+*.xcf binary
