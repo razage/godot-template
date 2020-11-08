@@ -1,0 +1,20 @@
+{
+	"atomKeymap.promptV3Features": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+	"editor.fontFamily": "JetBrains Mono",
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.fontLigatures": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"explorer.confirmDragAndDrop": false,
+	"files.eol": "\n",
+	"git.autofetch": true,
+	"prettier.tabWidth": 4,
+	"workbench.colorTheme": "Cobalt3",
+	"workbench.iconTheme": "material-icon-theme",
+	"csharp.suppressDotnetInstallWarning": true
+}
