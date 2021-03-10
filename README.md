@@ -10,10 +10,13 @@ This project is meant to make creating new Godot projects much easier. There's s
 -   Godot stuff
     -   Added a version field to `application/config` in the Project settings. It is a string and intended to be used for semantic versioning (X.Y.Z).
     -   Movement buttons are set up for WASD and arrow controls.
+    -   Added a `Global.gd` file to the autoloads. This file is accessible anywhere and intended to house helper functions, "application" code like window management, and possibly variables that are needed everywhere.
+    -   An implementation of the Finite State Machine pattern. I modified code from [GDQuest](https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/) to fit my styling and I may have renamed stuff, added minor methods, etc. Virtually every game will need a FSM for something, so it makes sense to be part of the boilerplate.
     -   The `script_templates` directory contains templates for laying out code in my typical style for both C# and GDScript. These will change as my style changes, if necessary.
         -   The so-called "style" is basically just the top-down organization of variables and functions. Comments are left indicating where things should go.
         -   If you are using VSCode, unfortunately the C# plugin will attempt to parse the C# template and it will always be labeled as an error. I have not found a way to get rid of this, so the best course of action is to **not** expand the `script_templates/` folder or open the C# template file. If you don't open the file, it won't be parsed.
             -   The Prettify plugin will also fail to format the code correctly because of errors, so it is a royal pain to edit. I tend to do any modifications of the template files in a normal text editor to avoid this.
+    -   The `Game.tscn` scene is used as an "entry point" for the application. The level, camera, player, and GUI root nodes would be children of this scene.
 -   Miscellaneous stuff
     -   The folder structure I typically use is set up and ready to be used.
     -   I included my VSCode settings for my own benefit. You may not like or need these settings, so feel free to remove them.
